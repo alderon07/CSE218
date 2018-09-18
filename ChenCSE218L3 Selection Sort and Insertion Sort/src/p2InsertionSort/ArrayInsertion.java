@@ -12,7 +12,7 @@ public class ArrayInsertion {
 	public void insertionSort() {
 		int in;
 		int out;
-		
+
 		for (out = 1; out < nElems; out++) {
 			int temp = a[out];
 			in = out;
@@ -20,12 +20,10 @@ public class ArrayInsertion {
 				a[in] = a[in - 1];
 				in--;
 			}
-			a[in] =temp;
-			
+			a[in] = temp;
+
 		}
 	}
-
-
 
 	public void insert(int value) {
 		a[nElems++] = value;

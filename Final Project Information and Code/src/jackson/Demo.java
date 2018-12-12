@@ -15,7 +15,7 @@ public class Demo {
 
 		try {
 			URL url = new URL(
-					"https://api.data.gov/ed/collegescorecard/v1/schools.json?school.degrees_awarded.predominant=2&_fields=id,school.name&_zip=11790&_distance=10mi&api_key=your_own_key");
+					"https://api.data.gov/ed/collegescorecard/v1/schools.json?school.degrees_awarded.predominant=2&_fields=id,school.name&_zip=11790&_distance=10mi&api_key=");
 
 			// https://api.data.gov/ed/collegescorecard/v1/schools.json?school.degrees_awarded.predominant=2,3,4&_fields=id,school.name,latest.admissions.sat_scores.25th_percentile.critical_reading,latest.admissions.sat_scores.75th_percentile.critical_reading&_zip=11790&_distance=20mi&api_key=your_own_key
 
